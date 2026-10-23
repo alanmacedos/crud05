@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div id="info">
+
+            <h1>Qual o desafio de hoje?</h1>
+
+            <form id="form">
+
+                <label for="task">tarefa</label>
+                <input id="task" type="text" required>
+
+                <label for="status">status</label>
+                <select id="status">
+
+                    <option value="" selected disabled>Selecione o status</option>
+                    <option value="feito">feito</option>
+                    <option value="à fazer">à fazer</option>
+
+                </select>
+
+                <button id="btn" type="submit">salvar</button>
+
+            </form>
+
+        </div>
+
+        <div id="ulDiv">
+
+            <h1>Tarefas</h1>
+
+            <ul id="ulElement"></ul>
+
+        </div>
+
+    </main>
+
+    <script type="module" src="./main.js"></script>
+
+</body>
+
+</html>
